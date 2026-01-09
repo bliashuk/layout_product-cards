@@ -9,10 +9,10 @@
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
     background-position: center;
+  }
 
-    &:last-child {
-      margin-right: 0;
-    }
+  &__star:last-child {
+    margin-right: 0;
   }
 
   &--1 &__star:nth-child(-n + 1),
