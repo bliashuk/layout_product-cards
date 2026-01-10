@@ -75,22 +75,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 40px;
     border: 1px solid $main-color;
     border-radius: 5px;
-
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
+    color: $card-bg-color;
     text-decoration: none;
     text-transform: uppercase;
-
     background-color: $main-color;
 
     &:hover {
       color: $main-color;
-      background-color: #fff;
+      background-color: $card-bg-color;
     }
   }
 }

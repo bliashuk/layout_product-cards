@@ -1,22 +1,9 @@
-&__buy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 40px;
-  border: 1px solid $main-color;
-  border-radius: 5px;
-
-  font-size: 14px;
-  font-weight: 700;
-  color: $card-bg-color;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  background-color: $main-color;
-
-  &:hover {
-    color: $main-color;
-    background-color: $card-bg-color;
-  }
-}
+$main-color: #00acdc;
+$text-accent-color: #060b35;
+$text-secondary-color: #616070;
+$font-main: 'Roboto', sans-serif;
+$card-width: 200px;
+$card-border-color: #f3f3f3;
+$card-bg-color: #fff;
+$star-size: 16px;
+$star-spacing: 4px;
